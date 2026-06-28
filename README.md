@@ -1,108 +1,294 @@
 # Nomad Radar
 
-Nomad Radar is a public medical services price aggregator for Kazakhstan, built for the Nomad Insurance.
+**Nomad Radar** — веб-платформа для поиска и сравнения цен на медицинские услуги в Казахстане.
 
-## What it does
+Проект помогает пользователю быстро найти нужный анализ, консультацию или диагностику, сравнить цены между клиниками, посмотреть карточку клиники, открыть ее на карте и сохранить подходящие предложения.
 
-Nomad Radar helps users find medical services, compare public clinic prices, view clinic profiles, save offers to favorites, and prepare price alerts by city and category.
+Сервис создан для Nomad Insurance и решает простую, но важную проблему: цены на медицинские услуги разбросаны по сайтам клиник, прайс-листам и городским филиалам. Nomad Radar собирает эти данные в единую понятную витрину.
 
-## Key features
+---
 
-- Medical service search with city, category and price filters.
-- Clean clinic catalog and clinic profile pages.
-- Comparison table for selected offers.
-- Favorites stored locally in the browser.
-- Subscriptions UI for future price alerts.
-- Interactive map with Leaflet and OpenStreetMap.
-- Public web price data layer.
-- Normalization dictionary and public service aliases.
+## 🚀 Что делает продукт
 
-## Demo routes
+Nomad Radar работает как агрегатор медицинских цен:
 
-- `/` - public home page and search entry.
-- `/search` - unified service search and catalog.
-- `/clinics` - clinic catalog.
-- `/clinics/[id]` - clinic profile with services, branches and reviews section.
-- `/map` - clinic list and interactive map.
-- `/comparison` - offer comparison table.
-- `/favorites` - saved offers.
-- `/subscriptions` - price alert UI.
+* собирает открытые прайсы из публичных источников;
+* приводит разные названия услуг к единому справочнику;
+* показывает цены, клиники, города и дату обновления;
+* помогает выбрать наиболее выгодное предложение;
+* дает пользователю удобный и адаптивный сценарий поиска.
 
-## Data layer
+---
 
-The public UI is powered by generated public data:
+## 🎯 Для кого
 
-- `data/generated/public_ui_dataset.json` - frontend-ready cities, categories, services, clinics, offers, recommendations and details.
-- `data/generated/web_price_records.json` - public web price records imported from configured sources.
-- `data/generated/services.json` - normalized service dictionary.
-- `data/generated/service_synonyms.json` - service synonyms.
+Nomad Radar полезен сразу нескольким аудиториям:
 
-Local archive imports, raw parser caches and internal source-file reports are not required for the public demo and are ignored for GitHub readiness.
+Пациентам — быстро найти подходящую клинику и сравнить цены;
+Семьям — заранее оценить расходы на анализы, диагностику и консультации;
+Страховым компаниям — видеть рыночную картину цен и медицинских предложений;
+Клиникам — становиться заметнее в цифровом поиске;
+Городам и регионам — получать более прозрачный рынок медицинских услуг.
 
-## Tech stack
+---
 
-- Next.js App Router
-- TypeScript
-- Tailwind CSS
-- Leaflet + OpenStreetMap
-- Python data scripts
-- Generated JSON public data layer
+## ✨ Ключевые возможности
 
-## How to run locally
+### Поиск медицинских услуг
+
+Пользователь может найти нужную услугу по названию и сразу отфильтровать предложения по:
+
+* городу;
+* категории услуги;
+* цене;
+* актуальности данных;
+* доступности предложения.
+
+Поиск адаптирован под реальные медицинские названия: например, разные варианты ОАК, общего анализа крови и похожих формулировок приводятся к нормализованному виду.
+
+### Сравнение цен
+
+В выдаче можно выбрать несколько предложений и открыть их в режиме сравнения. Это помогает быстро понять:
+
+* где дешевле;
+* какая клиника предлагает услугу;
+* когда цена была обновлена;
+* в каком городе доступно предложение.
+
+### Каталог клиник
+
+В проекте есть отдельный каталог клиник с карточками, логотипами, городами, диапазоном цен, количеством услуг и кратким описанием.
+
+Карточка клиники показывает не просто название, а понятный контекст: чем занимается клиника, какие направления доступны и где находится филиал.
+
+### Профиль клиники
+
+У каждой клиники есть отдельная страница с:
+
+* услугами и ценами;
+* филиалами;
+* контактами;
+* сайтом;
+* графиком работы;
+* отзывным блоком;
+* быстрым переходом на карту.
+
+### Интерактивная карта
+
+Раздел `/map` показывает клиники на интерактивной карте Leaflet + OpenStreetMap.
+
+Карта поддерживает:
+
+* маркеры клиник;
+* выбор клиники из списка;
+* popup с краткой информацией;
+* переход в профиль клиники;
+* мобильный режим “Список / Карта”.
+
+### Избранное
+
+Пользователь может сохранять интересные предложения и возвращаться к ним позже.
+
+### Подписки на цены
+
+В проекте заложен пользовательский сценарий подписок на изменение цен по городу, категории и услуге. Это усиливает продуктовую ценность сервиса: пользователь не просто ищет цену один раз, а может следить за изменениями.
+
+---
+
+## 📊 Данные
+
+Публичный интерфейс работает на подготовленном слое данных:
+
+* **5 000+ ценовых предложений**
+* **1 500+ нормализованных услуг**
+* **15 клиник в каталоге**
+* **9 городов Казахстана**
+* **14 активных публичных источников**
+* **единый справочник услуг**
+* **слой нормализации и алиасов**
+
+Данные собираются из открытых источников, проходят обработку, дедупликацию и приводятся к формату, удобному для пользовательского интерфейса.
+
+---
+
+## 🏙 Города
+
+В текущей версии представлены города:
+
+* Алматы
+* Астана
+* Шымкент
+* Караганда
+* Актобе
+* Павлодар
+* Костанай
+* Атырау
+* Тараз
+
+---
+
+## 🏥 Клиники
+
+В каталоге представлены лабораторные сети, медицинские центры и профильные клиники, включая:
+
+* INVIVO Kazakhstan
+* KDL/Olymp
+* Medical Park
+* Dostarmed
+* Гиппократ
+* On Clinic Almaty
+* Mediker
+* Emirmed
+* Medline
+* Helix Kazakhstan
+
+---
+
+## 🧠 Нормализация услуг
+
+Одна из ключевых частей проекта — нормализация медицинских услуг.
+
+На сайтах клиник одна и та же услуга может называться по-разному. Nomad Radar приводит такие названия к единому справочнику, чтобы пользователь видел понятную выдачу, а не хаотичный список строк из прайс-листов.
+
+Пример:
+
+* “ОАК”
+* “Общий анализ крови”
+* “Клинический анализ крови”
+* “CBC”
+
+→ **Общий анализ крови (ОАК)**
+
+Это делает поиск чище, сравнение точнее, а интерфейс понятнее.
+
+---
+
+## 🧩 Основные страницы
+
+| Route            | Назначение                                       |
+| ---------------- | ------------------------------------------------ |
+| `/`              | Главная страница и вход в поиск                  |
+| `/search`        | Поиск услуг, фильтры, рекомендации и сравнение   |
+| `/clinics`       | Каталог клиник                                   |
+| `/clinics/[id]`  | Профиль клиники с услугами, филиалами и отзывами |
+| `/map`           | Интерактивная карта клиник                       |
+| `/comparison`    | Таблица сравнения выбранных предложений          |
+| `/favorites`     | Избранные предложения                            |
+| `/subscriptions` | Подписки на изменение цен                        |
+
+---
+
+## 🛠 Tech Stack
+
+* **Next.js App Router**
+* **TypeScript**
+* **Tailwind CSS**
+* **Leaflet + OpenStreetMap**
+* **Python data scripts**
+* **Generated JSON data layer**
+* **Public web price import**
+* **Service normalization dictionary**
+
+---
+
+## 📁 Data Layer
+
+Публичный UI использует подготовленные JSON-данные:
+
+* `data/generated/public_ui_dataset.json`
+  основной frontend-ready dataset для городов, клиник, услуг, предложений и рекомендаций;
+
+* `data/generated/web_price_records.json`
+  записи с публичных web-источников;
+
+* `data/generated/services.json`
+  справочник нормализованных услуг;
+
+* `data/generated/service_synonyms.json`
+  синонимы и алиасы услуг;
+
+* `data/reports/`
+  отчеты по качеству данных, источникам, unmatched-услугам и готовности проекта.
+
+---
+
+## ⚙️ Как запустить локально
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open `http://localhost:3000`.
-
-The demo can run from the committed generated public data. Rebuilding data is optional unless source data was changed.
-
-## Useful scripts
+После запуска открыть:
 
 ```bash
-npm run dev          # Start local development server
-npm run build        # Production build
-npm run start        # Start production server after build
-npm run lint         # ESLint
-npm run typecheck    # TypeScript check
-npm run data:build   # Rebuild generated datasets and reports
-npm run web:data     # Import configured public web sources
-npm run web:discover # Check public source candidates
+http://localhost:3000
 ```
 
-## Project structure
+Проект запускается на подготовленном публичном dataset, который уже включен в репозиторий.
 
-- `app/` - Next.js routes.
-- `components/` - shared UI and client components.
-- `lib/` - data helpers, public UI helpers and clinic profile enrichment.
-- `scripts/` - import, normalization, analytics and web discovery scripts.
-- `data/generated/` - generated public demo data and selected dictionaries.
-- `data/reports/` - data quality and discovery reports.
-- `public/images/logos/` - clinic logos used by public UI.
+---
 
-## Hackathon TZ coverage
+## 🧪 Полезные команды
 
-- Public service search and filters are implemented.
-- Public web price data is normalized into a clean UI dataset.
-- Clinic catalog, clinic profiles, comparison, favorites, subscriptions UI and map are implemented.
-- Regional public web records are included in the generated dataset.
-- Parser internals, local archive paths and technical fields are kept out of the public UI.
+```bash
+npm run dev          # запуск dev-сервера
+npm run build        # production build
+npm run start        # запуск production-сборки
+npm run lint         # проверка ESLint
+npm run typecheck    # проверка TypeScript
+npm run data:build   # пересборка generated datasets и reports
+npm run web:data     # импорт настроенных публичных web-источников
+npm run web:discover # проверка публичных source candidates
+```
 
-## Known limitations
+---
 
-- Some clinic branches do not yet have verified coordinates.
-- 2GIS integration is not connected yet; the current map uses OpenStreetMap.
-- Favorites are stored locally in the browser.
-- Subscriptions are UI-only and do not send notifications yet.
-- Public web data freshness depends on re-running the configured import scripts.
+## 🗂 Структура проекта
 
-## Roadmap
+```bash
+app/                  # Next.js routes
+components/           # UI-компоненты и client components
+lib/                  # helpers, data access, public UI logic, clinic profiles
+scripts/              # парсинг, импорт, нормализация, аналитика
+data/generated/       # подготовленные публичные данные
+data/reports/         # отчеты по данным и источникам
+public/images/logos/  # логотипы клиник
+```
 
-- More geocoded branches.
-- 2GIS integration.
-- Admin panel for source monitoring.
-- More sources and cities.
-- Price history charts.
-- Analytics dashboards.
+---
+
+## 🔥 Почему это важно
+
+На рынке медицинских услуг пользователю сложно быстро понять, где дешевле сдать анализ, пройти УЗИ или записаться на консультацию. Цены разбросаны по сайтам, PDF-прайсам, филиалам и разным городам.
+
+Nomad Radar собирает эту информацию в один продуктовый сценарий:
+
+**найти услугу → сравнить цены → выбрать клинику → открыть карту → сохранить или подписаться на изменения.**
+
+Это делает рынок прозрачнее, а выбор медицинских услуг — быстрее и понятнее еще до визита.
+
+---
+
+## 🚀 Roadmap
+
+Следующие шаги развития продукта:
+
+* подключение 2GIS-карты и маршрутов;
+* пуш-уведомления по подпискам;
+* история изменения цен;
+* графики динамики цен;
+* личный кабинет пользователя;
+* админ-панель для мониторинга источников;
+* больше городов и клиник Казахстана;
+* API для партнеров и страховых продуктов.
+
+---
+
+## 🧡 От команды
+
+Nomad Radar подготовлен командой **57** специально для **Nomad Insurance**.
+
+Проект помогает искать медицинские услуги, сравнивать цены клиник, открывать их на карте и сохранять подходящие предложения в одном удобном интерфейсе.
+
+**Nomad Radar** делает выбор медицинских услуг в Казахстане быстрее, понятнее и прозрачнее.
