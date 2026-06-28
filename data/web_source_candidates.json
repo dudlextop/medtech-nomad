@@ -1,0 +1,353 @@
+[
+  {
+    "name": "KDL Olymp Astana price list",
+    "url": "https://www.kdlolymp.kz/pricelist/astana",
+    "expected_city": "Астана",
+    "type": "lab",
+    "notes": "Known public HTML price list with lab tests, prices and durations."
+  },
+  {
+    "name": "Dostarmed public price page",
+    "url": "https://dostarmed.kz/prajs",
+    "expected_city": "Алматы",
+    "type": "clinic",
+    "notes": "Known public HTML price page."
+  },
+  {
+    "name": "Medical Park public price page",
+    "url": "https://medicalpark.kz/page/prices/",
+    "expected_city": "Алматы",
+    "type": "clinic",
+    "notes": "Known public HTML price page."
+  },
+  {
+    "name": "INVIVO Shymkent analyses",
+    "url": "https://invivo.kz/ru/shymkent/analyzes/",
+    "expected_city": "Шымкент",
+    "type": "lab",
+    "notes": "Official public city page. Prices load through public AJAX endpoint."
+  },
+  {
+    "name": "INVIVO Karaganda analyses",
+    "url": "https://invivo.kz/ru/karagandy/analyzes/",
+    "expected_city": "Караганда",
+    "type": "lab",
+    "notes": "Official public city page. Prices load through public AJAX endpoint."
+  },
+  {
+    "name": "INVIVO Aktobe analyses",
+    "url": "https://invivo.kz/ru/aktobe/analyzes/",
+    "expected_city": "Актобе",
+    "type": "lab",
+    "notes": "Official public city page. Prices load through public AJAX endpoint."
+  },
+  {
+    "name": "INVIVO Ust-Kamenogorsk analyses",
+    "url": "https://invivo.kz/ru/ust-kamenogorsk/analyzes/",
+    "expected_city": "Усть-Каменогорск",
+    "type": "lab",
+    "notes": "Official public city page. Prices load through public AJAX endpoint."
+  },
+  {
+    "name": "INVIVO Pavlodar analyses",
+    "url": "https://invivo.kz/ru/pavlodar/analyzes/",
+    "expected_city": "Павлодар",
+    "type": "lab",
+    "notes": "Official public city page. Prices load through public AJAX endpoint."
+  },
+  {
+    "name": "INVIVO Kostanay analyses",
+    "url": "https://invivo.kz/ru/kostanay/analyzes/",
+    "expected_city": "Костанай",
+    "type": "lab",
+    "notes": "Official public city page. Prices load through public AJAX endpoint."
+  },
+  {
+    "name": "INVIVO Atyrau analyses",
+    "url": "https://invivo.kz/ru/atyrau/analyzes/",
+    "expected_city": "Атырау",
+    "type": "lab",
+    "notes": "Official public city page. Prices load through public AJAX endpoint."
+  },
+  {
+    "name": "INVIVO Taraz analyses",
+    "url": "https://invivo.kz/ru/taraz/analyzes/",
+    "expected_city": "Тараз",
+    "type": "lab",
+    "notes": "Official public city page. Prices load through public AJAX endpoint."
+  },
+  {
+    "name": "INVIVO Astana analyses",
+    "url": "https://invivo.kz/ru/astana/analyzes/",
+    "expected_city": "Астана",
+    "type": "lab",
+    "notes": "Official public city page. Prices load through public AJAX endpoint."
+  },
+  {
+    "name": "INVIVO Almaty analyses",
+    "url": "https://invivo.kz/ru/almaty/analyzes/",
+    "expected_city": "Алматы",
+    "type": "lab",
+    "notes": "Official public city page. Prices load through public AJAX endpoint."
+  },
+  {
+    "name": "INVIVO Aktau analyses",
+    "url": "https://invivo.kz/ru/aktau/analyzes/",
+    "expected_city": "Актау",
+    "type": "lab",
+    "notes": "Official public regional city page."
+  },
+  {
+    "name": "INVIVO Aksukent analyses",
+    "url": "https://invivo.kz/ru/aksukent/analyzes/",
+    "expected_city": "Аксукент",
+    "type": "lab",
+    "notes": "Official public regional city page."
+  },
+  {
+    "name": "INVIVO Kyzylorda analyses",
+    "url": "https://invivo.kz/ru/kyzylorda/analyzes/",
+    "expected_city": "Кызылорда",
+    "type": "lab",
+    "notes": "Official public regional city page."
+  },
+  {
+    "name": "INVIVO Kokshetau analyses",
+    "url": "https://invivo.kz/ru/kokshetau/analyzes/",
+    "expected_city": "Кокшетау",
+    "type": "lab",
+    "notes": "Official public regional city page."
+  },
+  {
+    "name": "INVIVO Semey analyses",
+    "url": "https://invivo.kz/ru/semey/analyzes/",
+    "expected_city": "Семей",
+    "type": "lab",
+    "notes": "Official public regional city page."
+  },
+  {
+    "name": "INVIVO Oral analyses",
+    "url": "https://invivo.kz/ru/oral/analyzes/",
+    "expected_city": "Уральск",
+    "type": "lab",
+    "notes": "Official public regional city page."
+  },
+  {
+    "name": "INVIVO Turkestan analyses",
+    "url": "https://invivo.kz/ru/turkestan/analyzes/",
+    "expected_city": "Туркестан",
+    "type": "lab",
+    "notes": "Official public regional city page."
+  },
+  {
+    "name": "INVIVO Temirtau analyses",
+    "url": "https://invivo.kz/ru/temirtau/analyzes/",
+    "expected_city": "Темиртау",
+    "type": "lab",
+    "notes": "Official public regional city page."
+  },
+  {
+    "name": "INVIVO Taldykorgan analyses",
+    "url": "https://invivo.kz/ru/taldykorgan/analyzes/",
+    "expected_city": "Талдыкорган",
+    "type": "lab",
+    "notes": "Official public regional city page."
+  },
+  {
+    "name": "INVIVO Ekibastuz analyses",
+    "url": "https://invivo.kz/ru/ekibastuz/analyzes/",
+    "expected_city": "Экибастуз",
+    "type": "lab",
+    "notes": "Official public regional city page."
+  },
+  {
+    "name": "INVIVO Rudnyy analyses",
+    "url": "https://invivo.kz/ru/rudnyy/analyzes/",
+    "expected_city": "Рудный",
+    "type": "lab",
+    "notes": "Official public regional city page."
+  },
+  {
+    "name": "INVIVO Kulsary analyses",
+    "url": "https://invivo.kz/ru/Kulsary/analyzes/",
+    "expected_city": "Кульсары",
+    "type": "lab",
+    "notes": "Official public regional city page."
+  },
+  {
+    "name": "Hippokrat Karaganda public PDF price list",
+    "url": "https://hippokrat.kz/sites/default/files/prays_too_mf_gippokrat_15.02.2025_1_1_1.pdf",
+    "expected_city": "Караганда",
+    "type": "clinic",
+    "source_type": "public_pdf",
+    "notes": "Official public PDF linked from the clinic homepage."
+  },
+  {
+    "name": "Hippokrat Karaganda homepage",
+    "url": "https://hippokrat.kz/",
+    "expected_city": "Караганда",
+    "type": "clinic",
+    "notes": "Homepage exposes public PDF price link."
+  },
+  {
+    "name": "On Clinic Almaty price page",
+    "url": "https://onclinic.kz/price",
+    "expected_city": "Алматы",
+    "type": "clinic",
+    "notes": "Official public HTML price page."
+  },
+  {
+    "name": "On Clinic homepage",
+    "url": "https://onclinic.kz/",
+    "expected_city": "Алматы",
+    "type": "clinic",
+    "notes": "Homepage links to public prices."
+  },
+  {
+    "name": "Mediker Kazakhstan homepage",
+    "url": "https://www.mediker.kz/",
+    "expected_city": null,
+    "type": "clinic",
+    "notes": "Official clinic network homepage; discovery checks for public price links."
+  },
+  {
+    "name": "Medline Kazakhstan homepage",
+    "url": "https://medline.kz/",
+    "expected_city": "Алматы",
+    "type": "clinic",
+    "notes": "Official clinic homepage; discovery checks for public price links."
+  },
+  {
+    "name": "Interteach homepage",
+    "url": "https://interteach.kz/",
+    "expected_city": "Алматы",
+    "type": "clinic",
+    "notes": "Official clinic homepage; discovery checks for public price links."
+  },
+  {
+    "name": "Emirmed homepage",
+    "url": "https://emirmed.kz/ru/",
+    "expected_city": "Алматы",
+    "type": "clinic",
+    "notes": "Official clinic homepage; discovery checks for public price links."
+  },
+  {
+    "name": "Olymp Kazakhstan homepage",
+    "url": "https://olymp.kz",
+    "expected_city": null,
+    "type": "lab",
+    "notes": "Candidate only; not added to active sources unless public prices extract."
+  },
+  {
+    "name": "Helix Kazakhstan homepage",
+    "url": "https://helix.kz",
+    "expected_city": null,
+    "type": "lab",
+    "notes": "Candidate only; not added to active sources unless public prices extract."
+  },
+  {
+    "name": "Medel clinic homepage",
+    "url": "https://medel.kz",
+    "expected_city": "Алматы",
+    "type": "clinic",
+    "notes": "Candidate only; discovery checks for public prices."
+  },
+  {
+    "name": "Aksai Clinic homepage",
+    "url": "https://aksai-clinic.kz",
+    "expected_city": "Алматы",
+    "type": "clinic",
+    "notes": "Candidate only; discovery checks for public prices."
+  },
+  {
+    "name": "MCK Kazakhstan homepage",
+    "url": "https://mck.kz",
+    "expected_city": "Алматы",
+    "type": "clinic",
+    "notes": "Candidate only; current domain status is verified by discovery."
+  },
+  {
+    "name": "Sunkar clinic homepage",
+    "url": "https://sunkarclinic.kz",
+    "expected_city": "Алматы",
+    "type": "clinic",
+    "notes": "Candidate only; current DNS/availability is verified by discovery."
+  },
+  {
+    "name": "KDL Olymp Shymkent price list",
+    "url": "https://www.kdlolymp.kz/pricelist/shymkent",
+    "expected_city": "Шымкент",
+    "type": "lab",
+    "notes": "Existing source family candidate; not promoted unless stable extraction works without changing existing source."
+  },
+  {
+    "name": "KDL Olymp Karaganda price list",
+    "url": "https://www.kdlolymp.kz/pricelist/karaganda",
+    "expected_city": "Караганда",
+    "type": "lab",
+    "notes": "Existing source family candidate; not promoted unless stable extraction works without changing existing source."
+  },
+  {
+    "name": "KDL Olymp Aktobe price list",
+    "url": "https://www.kdlolymp.kz/pricelist/aktobe",
+    "expected_city": "Актобе",
+    "type": "lab",
+    "notes": "Existing source family candidate; not promoted unless stable extraction works without changing existing source."
+  },
+  {
+    "name": "KDL Olymp Ust-Kamenogorsk price list",
+    "url": "https://www.kdlolymp.kz/pricelist/ust-kamenogorsk",
+    "expected_city": "Усть-Каменогорск",
+    "type": "lab",
+    "notes": "Existing source family candidate; not promoted unless stable extraction works without changing existing source."
+  },
+  {
+    "name": "KDL Olymp Pavlodar price list",
+    "url": "https://www.kdlolymp.kz/pricelist/pavlodar",
+    "expected_city": "Павлодар",
+    "type": "lab",
+    "notes": "Existing source family candidate; not promoted unless stable extraction works without changing existing source."
+  },
+  {
+    "name": "KDL Olymp Taraz price list",
+    "url": "https://www.kdlolymp.kz/pricelist/taraz",
+    "expected_city": "Тараз",
+    "type": "lab",
+    "notes": "Existing source family candidate; not promoted unless stable extraction works without changing existing source."
+  },
+  {
+    "name": "Smart Clinic homepage",
+    "url": "https://smartclinic.kz/",
+    "expected_city": "Астана",
+    "type": "clinic",
+    "notes": "Candidate only; SSL/availability is verified by discovery."
+  },
+  {
+    "name": "Daru Clinic candidate",
+    "url": "https://daruclinic.kz/",
+    "expected_city": null,
+    "type": "clinic",
+    "notes": "Candidate only; DNS/availability is verified by discovery."
+  },
+  {
+    "name": "Medline Astana candidate",
+    "url": "https://medline-astana.kz/",
+    "expected_city": "Астана",
+    "type": "clinic",
+    "notes": "Candidate only; DNS/availability is verified by discovery."
+  },
+  {
+    "name": "Karaganda medical candidate",
+    "url": "https://karagandamed.kz/",
+    "expected_city": "Караганда",
+    "type": "clinic",
+    "notes": "Candidate only; DNS/availability is verified by discovery."
+  },
+  {
+    "name": "Kostanay medical candidate",
+    "url": "https://qostanay-med.kz/",
+    "expected_city": "Костанай",
+    "type": "clinic",
+    "notes": "Candidate only; DNS/availability is verified by discovery."
+  }
+]

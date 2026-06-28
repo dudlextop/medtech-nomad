@@ -1,0 +1,35 @@
+{
+  "clinics": [
+    {
+      "id": "olymp-almaty",
+      "name": "КДЛ Олимп",
+      "city": "Алматы",
+      "address": "ул. Байзакова, 280",
+      "workingHours": "Пн-Сб 07:30-18:00",
+      "partnerStatus": "nomad_recommended",
+      "transparencyScore": 94
+    }
+  ],
+  "services": [
+    {
+      "id": "cbc",
+      "name": "Общий анализ крови",
+      "category": "Лабораторная диагностика",
+      "synonyms": ["ОАК", "CBC", "clinical blood test"]
+    }
+  ],
+  "price_records": [
+    {
+      "clinicId": "olymp-almaty",
+      "serviceId": "cbc",
+      "rawServiceName": "ОАК + лейкоформула",
+      "price": 2850,
+      "currency": "KZT",
+      "sourceUrl": "https://demo.nomad-radar.kz/sources/olymp-almaty",
+      "sourceType": "html",
+      "parsedAt": "2026-06-23T09:30:00+05:00",
+      "coverage": "covered",
+      "confidence": 0.96
+    }
+  ]
+}

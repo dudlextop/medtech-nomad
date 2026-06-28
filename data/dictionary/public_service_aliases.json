@@ -1,0 +1,162 @@
+[
+  {
+    "canonical_name": "Общий анализ крови",
+    "target_service_name": "ОАК 5 классов",
+    "category": "Анализы",
+    "aliases": ["ОАК", "общий анализ крови", "клинический анализ крови", "общий анализ крови с лейкоцитарной формулой", "ОАК + СОЭ", "CBC"]
+  },
+  {
+    "canonical_name": "Общий анализ мочи",
+    "category": "Анализы",
+    "aliases": ["ОАМ", "общий анализ мочи", "анализ мочи общий", "моча общий анализ"]
+  },
+  {
+    "canonical_name": "Витамин D",
+    "target_service_name": "Витамин D",
+    "category": "Анализы",
+    "aliases": ["Витамин D", "25(OH)D", "25-OH витамин D", "25-гидроксивитамин D", "25 гидроксивитамин D", "25 OH D", "25-ОН витамин D"]
+  },
+  {
+    "canonical_name": "Ферритин",
+    "target_service_name": "Ферритин",
+    "category": "Анализы",
+    "aliases": ["ферритин"]
+  },
+  {
+    "canonical_name": "ТТГ",
+    "target_service_name": "ТТГ тиреотропный гормон",
+    "category": "Анализы",
+    "aliases": ["ТТГ", "тиреотропный гормон", "TSH"]
+  },
+  {
+    "canonical_name": "Т3",
+    "category": "Анализы",
+    "aliases": ["Т3", "трийодтиронин", "T3", "свободный Т3"]
+  },
+  {
+    "canonical_name": "Т4",
+    "category": "Анализы",
+    "aliases": ["Т4", "тироксин", "T4", "свободный Т4"]
+  },
+  {
+    "canonical_name": "Глюкоза",
+    "target_service_name": "Глюкоза",
+    "category": "Анализы",
+    "aliases": ["глюкоза", "глюкоза крови", "сахар крови"]
+  },
+  {
+    "canonical_name": "Холестерин общий",
+    "target_service_name": "Холестерин общий",
+    "category": "Анализы",
+    "aliases": ["холестерин", "холестерин общий", "общий холестерин"]
+  },
+  {
+    "canonical_name": "Билирубин общий",
+    "target_service_name": "Билирубин общий",
+    "category": "Анализы",
+    "aliases": ["билирубин", "билирубин общий", "общий билирубин"]
+  },
+  {
+    "canonical_name": "Креатинин",
+    "target_service_name": "Креатинин",
+    "category": "Анализы",
+    "aliases": ["креатинин"]
+  },
+  {
+    "canonical_name": "АЛТ",
+    "target_service_name": "АЛТ",
+    "category": "Анализы",
+    "aliases": ["АЛТ", "аланинаминотрансфераза", "ALT"]
+  },
+  {
+    "canonical_name": "АСТ",
+    "target_service_name": "АСТ",
+    "category": "Анализы",
+    "aliases": ["АСТ", "аспартатаминотрансфераза", "AST"]
+  },
+  {
+    "canonical_name": "ПЦР",
+    "category": "Анализы",
+    "aliases": ["ПЦР", "PCR", "полимеразная цепная реакция"]
+  },
+  {
+    "canonical_name": "HBsAg",
+    "target_service_name": "HBsAg",
+    "category": "Анализы",
+    "aliases": ["HBsAg", "HBs Ag", "австралийский антиген", "поверхностный антиген гепатита B"]
+  },
+  {
+    "canonical_name": "Anti-HCV",
+    "target_service_name": "Anti-HCV",
+    "category": "Анализы",
+    "aliases": ["Anti-HCV", "анти HCV", "антитела к HCV", "антитела к вирусу гепатита C", "гепатит C антитела"]
+  },
+  {
+    "canonical_name": "Anti-HBs",
+    "target_service_name": "Anti-HBs",
+    "category": "Анализы",
+    "aliases": ["Anti-HBs", "анти HBs", "антитела к HBs", "антитела к гепатиту B"]
+  },
+  {
+    "canonical_name": "ВИЧ",
+    "category": "Анализы",
+    "aliases": ["ВИЧ", "HIV", "антитела к ВИЧ", "ВИЧ 1/2"]
+  },
+  {
+    "canonical_name": "Сифилис",
+    "category": "Анализы",
+    "aliases": ["сифилис", "Treponema pallidum", "RW", "РМП", "антитела к Treponema pallidum"]
+  },
+  {
+    "canonical_name": "С-реактивный белок",
+    "target_service_name": "С-реактивный белок",
+    "category": "Анализы",
+    "aliases": ["С-реактивный белок", "СРБ", "CRP", "C reactive protein"]
+  },
+  {
+    "canonical_name": "Коагулограмма",
+    "category": "Анализы",
+    "aliases": ["коагулограмма", "гемостазиограмма", "АПТВ", "МНО", "протромбиновое время"]
+  },
+  {
+    "canonical_name": "ЭКГ",
+    "target_service_name": "ЭКГ",
+    "category": "Диагностика",
+    "aliases": ["ЭКГ", "электрокардиография", "ECG", "EKG"]
+  },
+  {
+    "canonical_name": "УЗИ",
+    "category": "УЗИ",
+    "aliases": ["УЗИ", "ультразвуковое исследование", "ультразвуковая диагностика", "допплер", "доплер"]
+  },
+  {
+    "canonical_name": "МРТ",
+    "category": "Диагностика",
+    "aliases": ["МРТ", "магнитно-резонансная томография", "магнитно резонансная томография"]
+  },
+  {
+    "canonical_name": "КТ",
+    "category": "Диагностика",
+    "aliases": ["КТ", "компьютерная томография"]
+  },
+  {
+    "canonical_name": "Консультация терапевта",
+    "category": "Консультации",
+    "aliases": ["консультация терапевта", "прием терапевта", "приём терапевта"]
+  },
+  {
+    "canonical_name": "Консультация кардиолога",
+    "category": "Консультации",
+    "aliases": ["консультация кардиолога", "прием кардиолога", "приём кардиолога"]
+  },
+  {
+    "canonical_name": "Консультация гинеколога",
+    "category": "Консультации",
+    "aliases": ["консультация гинеколога", "прием гинеколога", "приём гинеколога"]
+  },
+  {
+    "canonical_name": "Консультация невролога",
+    "category": "Консультации",
+    "aliases": ["консультация невролога", "прием невролога", "приём невролога"]
+  }
+]

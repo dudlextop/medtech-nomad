@@ -1,0 +1,3673 @@
+{
+  "generated_at": "2026-06-27T09:01:51.856423+00:00",
+  "candidates_total": 50,
+  "candidates_checked": 50,
+  "candidates_added": 27,
+  "price_candidates": 27,
+  "metadata_only": 6,
+  "skipped_warning_error": 16,
+  "skipped": [
+    {
+      "name": "Dostarmed public price page",
+      "url": "https://dostarmed.kz/prajs",
+      "city": "Алматы",
+      "status": "metadata_only",
+      "skip_reason": "no_extractable_service_price_rows",
+      "robots_status": "robots_allowed"
+    },
+    {
+      "name": "Hippokrat Karaganda public PDF price list",
+      "url": "https://hippokrat.kz/sites/default/files/prays_too_mf_gippokrat_15.02.2025_1_1_1.pdf",
+      "city": "Караганда",
+      "status": "public_file_candidate",
+      "skip_reason": "public_file_requires_import_validation",
+      "robots_status": "robots_allowed"
+    },
+    {
+      "name": "Hippokrat Karaganda homepage",
+      "url": "https://hippokrat.kz/",
+      "city": "Караганда",
+      "status": "metadata_only",
+      "skip_reason": "no_extractable_service_price_rows",
+      "robots_status": "robots_allowed"
+    },
+    {
+      "name": "On Clinic Almaty price page",
+      "url": "https://onclinic.kz/price",
+      "city": "Алматы",
+      "status": "metadata_only",
+      "skip_reason": "no_extractable_service_price_rows",
+      "robots_status": "robots_allowed"
+    },
+    {
+      "name": "Mediker Kazakhstan homepage",
+      "url": "https://www.mediker.kz/",
+      "city": null,
+      "status": "metadata_only",
+      "skip_reason": "no_extractable_service_price_rows",
+      "robots_status": "robots_allowed"
+    },
+    {
+      "name": "Interteach homepage",
+      "url": "https://interteach.kz/",
+      "city": "Алматы",
+      "status": "metadata_only",
+      "skip_reason": "no_extractable_service_price_rows",
+      "robots_status": "robots_allowed"
+    },
+    {
+      "name": "Emirmed homepage",
+      "url": "https://emirmed.kz/ru/",
+      "city": "Алматы",
+      "status": "metadata_only",
+      "skip_reason": "no_extractable_service_price_rows",
+      "robots_status": "robots_allowed"
+    },
+    {
+      "name": "Olymp Kazakhstan homepage",
+      "url": "https://olymp.kz",
+      "city": null,
+      "status": "error",
+      "skip_reason": "<urlopen error timed out>",
+      "robots_status": "robots_unknown"
+    },
+    {
+      "name": "Medel clinic homepage",
+      "url": "https://medel.kz",
+      "city": "Алматы",
+      "status": "warning",
+      "skip_reason": "no_medical_price_markers",
+      "robots_status": "robots_unknown"
+    },
+    {
+      "name": "Aksai Clinic homepage",
+      "url": "https://aksai-clinic.kz",
+      "city": "Алматы",
+      "status": "error",
+      "skip_reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "robots_status": "robots_unknown"
+    },
+    {
+      "name": "MCK Kazakhstan homepage",
+      "url": "https://mck.kz",
+      "city": "Алматы",
+      "status": "warning",
+      "skip_reason": "no_medical_price_markers",
+      "robots_status": "robots_unknown"
+    },
+    {
+      "name": "Sunkar clinic homepage",
+      "url": "https://sunkarclinic.kz",
+      "city": "Алматы",
+      "status": "error",
+      "skip_reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "robots_status": "robots_unknown"
+    },
+    {
+      "name": "KDL Olymp Shymkent price list",
+      "url": "https://www.kdlolymp.kz/pricelist/shymkent",
+      "city": "Шымкент",
+      "status": "error",
+      "skip_reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound",
+      "robots_status": "robots_allowed"
+    },
+    {
+      "name": "KDL Olymp Karaganda price list",
+      "url": "https://www.kdlolymp.kz/pricelist/karaganda",
+      "city": "Караганда",
+      "status": "error",
+      "skip_reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound",
+      "robots_status": "robots_allowed"
+    },
+    {
+      "name": "KDL Olymp Aktobe price list",
+      "url": "https://www.kdlolymp.kz/pricelist/aktobe",
+      "city": "Актобе",
+      "status": "error",
+      "skip_reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound",
+      "robots_status": "robots_allowed"
+    },
+    {
+      "name": "KDL Olymp Ust-Kamenogorsk price list",
+      "url": "https://www.kdlolymp.kz/pricelist/ust-kamenogorsk",
+      "city": "Усть-Каменогорск",
+      "status": "error",
+      "skip_reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound",
+      "robots_status": "robots_allowed"
+    },
+    {
+      "name": "KDL Olymp Pavlodar price list",
+      "url": "https://www.kdlolymp.kz/pricelist/pavlodar",
+      "city": "Павлодар",
+      "status": "error",
+      "skip_reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound",
+      "robots_status": "robots_allowed"
+    },
+    {
+      "name": "KDL Olymp Taraz price list",
+      "url": "https://www.kdlolymp.kz/pricelist/taraz",
+      "city": "Тараз",
+      "status": "error",
+      "skip_reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound",
+      "robots_status": "robots_allowed"
+    },
+    {
+      "name": "Smart Clinic homepage",
+      "url": "https://smartclinic.kz/",
+      "city": "Астана",
+      "status": "skipped",
+      "skip_reason": "blocked_by_robots",
+      "robots_status": "robots_blocked"
+    },
+    {
+      "name": "Daru Clinic candidate",
+      "url": "https://daruclinic.kz/",
+      "city": null,
+      "status": "error",
+      "skip_reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "robots_status": "robots_unknown"
+    },
+    {
+      "name": "Medline Astana candidate",
+      "url": "https://medline-astana.kz/",
+      "city": "Астана",
+      "status": "error",
+      "skip_reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "robots_status": "robots_unknown"
+    },
+    {
+      "name": "Karaganda medical candidate",
+      "url": "https://karagandamed.kz/",
+      "city": "Караганда",
+      "status": "error",
+      "skip_reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "robots_status": "robots_unknown"
+    },
+    {
+      "name": "Kostanay medical candidate",
+      "url": "https://qostanay-med.kz/",
+      "city": "Костанай",
+      "status": "error",
+      "skip_reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "robots_status": "robots_unknown"
+    }
+  ],
+  "city_coverage": {
+    "Астана": {
+      "checked": 31,
+      "price_candidates": 25,
+      "skipped": 2
+    },
+    "Алматы": {
+      "checked": 35,
+      "price_candidates": 26,
+      "skipped": 4
+    },
+    "Актау": {
+      "checked": 23,
+      "price_candidates": 22,
+      "skipped": 0
+    },
+    "Актобе": {
+      "checked": 24,
+      "price_candidates": 22,
+      "skipped": 1
+    },
+    "Караганда": {
+      "checked": 27,
+      "price_candidates": 22,
+      "skipped": 2
+    },
+    "Павлодар": {
+      "checked": 24,
+      "price_candidates": 22,
+      "skipped": 1
+    },
+    "Семей": {
+      "checked": 24,
+      "price_candidates": 23,
+      "skipped": 0
+    },
+    "Тараз": {
+      "checked": 24,
+      "price_candidates": 22,
+      "skipped": 1
+    },
+    "Усть-Каменогорск": {
+      "checked": 26,
+      "price_candidates": 23,
+      "skipped": 1
+    },
+    "Шымкент": {
+      "checked": 25,
+      "price_candidates": 22,
+      "skipped": 1
+    },
+    "Костанай": {
+      "checked": 2,
+      "price_candidates": 1,
+      "skipped": 1
+    },
+    "Атырау": {
+      "checked": 1,
+      "price_candidates": 1,
+      "skipped": 0
+    },
+    "Аксукент": {
+      "checked": 1,
+      "price_candidates": 1,
+      "skipped": 0
+    },
+    "Кызылорда": {
+      "checked": 1,
+      "price_candidates": 1,
+      "skipped": 0
+    },
+    "Кокшетау": {
+      "checked": 1,
+      "price_candidates": 1,
+      "skipped": 0
+    },
+    "Уральск": {
+      "checked": 1,
+      "price_candidates": 1,
+      "skipped": 0
+    },
+    "Туркестан": {
+      "checked": 1,
+      "price_candidates": 1,
+      "skipped": 0
+    },
+    "Темиртау": {
+      "checked": 1,
+      "price_candidates": 1,
+      "skipped": 0
+    },
+    "Талдыкорган": {
+      "checked": 1,
+      "price_candidates": 1,
+      "skipped": 0
+    },
+    "Экибастуз": {
+      "checked": 1,
+      "price_candidates": 1,
+      "skipped": 0
+    },
+    "Рудный": {
+      "checked": 1,
+      "price_candidates": 1,
+      "skipped": 0
+    },
+    "Кульсары": {
+      "checked": 1,
+      "price_candidates": 1,
+      "skipped": 0
+    },
+    "unknown": {
+      "checked": 2,
+      "price_candidates": 0,
+      "skipped": 2
+    }
+  },
+  "source_coverage": {
+    "KDL Olymp Astana price list": {
+      "status": "price_candidate",
+      "city": "Астана",
+      "extractable_price_rows": 5,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "Dostarmed public price page": {
+      "status": "metadata_only",
+      "city": "Алматы",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_allowed",
+      "reason": "no_extractable_service_price_rows"
+    },
+    "Medical Park public price page": {
+      "status": "price_candidate",
+      "city": "Алматы",
+      "extractable_price_rows": 5,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Shymkent analyses": {
+      "status": "price_candidate",
+      "city": "Шымкент",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Karaganda analyses": {
+      "status": "price_candidate",
+      "city": "Караганда",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Aktobe analyses": {
+      "status": "price_candidate",
+      "city": "Актобе",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Ust-Kamenogorsk analyses": {
+      "status": "price_candidate",
+      "city": "Усть-Каменогорск",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Pavlodar analyses": {
+      "status": "price_candidate",
+      "city": "Павлодар",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Kostanay analyses": {
+      "status": "price_candidate",
+      "city": "Костанай",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Atyrau analyses": {
+      "status": "price_candidate",
+      "city": "Атырау",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Taraz analyses": {
+      "status": "price_candidate",
+      "city": "Тараз",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Astana analyses": {
+      "status": "price_candidate",
+      "city": "Астана",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Almaty analyses": {
+      "status": "price_candidate",
+      "city": "Алматы",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Aktau analyses": {
+      "status": "price_candidate",
+      "city": "Актау",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Aksukent analyses": {
+      "status": "price_candidate",
+      "city": "Аксукент",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Kyzylorda analyses": {
+      "status": "price_candidate",
+      "city": "Кызылорда",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Kokshetau analyses": {
+      "status": "price_candidate",
+      "city": "Кокшетау",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Semey analyses": {
+      "status": "price_candidate",
+      "city": "Семей",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Oral analyses": {
+      "status": "price_candidate",
+      "city": "Уральск",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Turkestan analyses": {
+      "status": "price_candidate",
+      "city": "Туркестан",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Temirtau analyses": {
+      "status": "price_candidate",
+      "city": "Темиртау",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Taldykorgan analyses": {
+      "status": "price_candidate",
+      "city": "Талдыкорган",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Ekibastuz analyses": {
+      "status": "price_candidate",
+      "city": "Экибастуз",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Rudnyy analyses": {
+      "status": "price_candidate",
+      "city": "Рудный",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "INVIVO Kulsary analyses": {
+      "status": "price_candidate",
+      "city": "Кульсары",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "Hippokrat Karaganda public PDF price list": {
+      "status": "public_file_candidate",
+      "city": "Караганда",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_allowed",
+      "reason": "public_file_requires_import_validation"
+    },
+    "Hippokrat Karaganda homepage": {
+      "status": "metadata_only",
+      "city": "Караганда",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_allowed",
+      "reason": "no_extractable_service_price_rows"
+    },
+    "On Clinic Almaty price page": {
+      "status": "metadata_only",
+      "city": "Алматы",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_allowed",
+      "reason": "no_extractable_service_price_rows"
+    },
+    "On Clinic homepage": {
+      "status": "price_candidate",
+      "city": "Алматы",
+      "extractable_price_rows": 4,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "Mediker Kazakhstan homepage": {
+      "status": "metadata_only",
+      "city": null,
+      "extractable_price_rows": 0,
+      "robots_status": "robots_allowed",
+      "reason": "no_extractable_service_price_rows"
+    },
+    "Medline Kazakhstan homepage": {
+      "status": "price_candidate",
+      "city": "Алматы",
+      "extractable_price_rows": 1,
+      "robots_status": "robots_allowed",
+      "reason": null
+    },
+    "Interteach homepage": {
+      "status": "metadata_only",
+      "city": "Алматы",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_allowed",
+      "reason": "no_extractable_service_price_rows"
+    },
+    "Emirmed homepage": {
+      "status": "metadata_only",
+      "city": "Алматы",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_allowed",
+      "reason": "no_extractable_service_price_rows"
+    },
+    "Olymp Kazakhstan homepage": {
+      "status": "error",
+      "city": null,
+      "extractable_price_rows": 0,
+      "robots_status": "robots_unknown",
+      "reason": "<urlopen error timed out>"
+    },
+    "Helix Kazakhstan homepage": {
+      "status": "price_candidate",
+      "city": null,
+      "extractable_price_rows": 1,
+      "robots_status": "robots_unknown",
+      "reason": null
+    },
+    "Medel clinic homepage": {
+      "status": "warning",
+      "city": "Алматы",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_unknown",
+      "reason": "no_medical_price_markers"
+    },
+    "Aksai Clinic homepage": {
+      "status": "error",
+      "city": "Алматы",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_unknown",
+      "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    "MCK Kazakhstan homepage": {
+      "status": "warning",
+      "city": "Алматы",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_unknown",
+      "reason": "no_medical_price_markers"
+    },
+    "Sunkar clinic homepage": {
+      "status": "error",
+      "city": "Алматы",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_unknown",
+      "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    "KDL Olymp Shymkent price list": {
+      "status": "error",
+      "city": "Шымкент",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_allowed",
+      "reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+    },
+    "KDL Olymp Karaganda price list": {
+      "status": "error",
+      "city": "Караганда",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_allowed",
+      "reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+    },
+    "KDL Olymp Aktobe price list": {
+      "status": "error",
+      "city": "Актобе",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_allowed",
+      "reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+    },
+    "KDL Olymp Ust-Kamenogorsk price list": {
+      "status": "error",
+      "city": "Усть-Каменогорск",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_allowed",
+      "reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+    },
+    "KDL Olymp Pavlodar price list": {
+      "status": "error",
+      "city": "Павлодар",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_allowed",
+      "reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+    },
+    "KDL Olymp Taraz price list": {
+      "status": "error",
+      "city": "Тараз",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_allowed",
+      "reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+    },
+    "Smart Clinic homepage": {
+      "status": "skipped",
+      "city": "Астана",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_blocked",
+      "reason": "blocked_by_robots"
+    },
+    "Daru Clinic candidate": {
+      "status": "error",
+      "city": null,
+      "extractable_price_rows": 0,
+      "robots_status": "robots_unknown",
+      "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    "Medline Astana candidate": {
+      "status": "error",
+      "city": "Астана",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_unknown",
+      "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    "Karaganda medical candidate": {
+      "status": "error",
+      "city": "Караганда",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_unknown",
+      "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    "Kostanay medical candidate": {
+      "status": "error",
+      "city": "Костанай",
+      "extractable_price_rows": 0,
+      "robots_status": "robots_unknown",
+      "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    }
+  },
+  "rows": [
+    {
+      "name": "KDL Olymp Astana price list",
+      "url": "https://www.kdlolymp.kz/pricelist/astana",
+      "expected_city": "Астана",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://www.kdlolymp.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "тг",
+        "price",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "узи",
+        "прием",
+        "консультация",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 5,
+      "sample_rows": [
+        {
+          "raw_service_name": "Клинический анализ крови с лейкоцитарной формулой* и измерением скорости оседания эритроцитов (ОАК + СОЭ)",
+          "price_kzt": 3980,
+          "raw_line": "3 980 ₸ В корзину"
+        },
+        {
+          "raw_service_name": "Общий анализ крови (ОАК без СОЭ)",
+          "price_kzt": 1880,
+          "raw_line": "1 880 ₸ В корзину"
+        },
+        {
+          "raw_service_name": "Измерение скорости оседания эритроцитов (СОЭ) в крови на анализаторе",
+          "price_kzt": 3080,
+          "raw_line": "3 080 ₸ В корзину"
+        },
+        {
+          "raw_service_name": "Профиль \"Диагностика анемии\"",
+          "price_kzt": 17320,
+          "raw_line": "17 320 ₸ В корзину"
+        },
+        {
+          "raw_service_name": "Биогенные амины (адреналин, норадреналин, дофамин, серотонин - кровь) и их метаболиты (ГВК, ВМК, 5- ОИУК - моча)",
+          "price_kzt": 44400,
+          "raw_line": "44 400 ₸ В корзину"
+        }
+      ],
+      "detected_cities": [
+        "Астана"
+      ],
+      "final_url": "https://www.kdlolymp.kz/pricelist/astana",
+      "html_hash": "639eb0a28e4d2b7105c91611a96559526ded8ccf808581866e0febd4811521dd",
+      "duration_sec": 2.4,
+      "candidate_links": [
+        {
+          "url": "https://www.kdlolymp.kz/pricelist/astana",
+          "label": "анализы",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://www.kdlolymp.kz/kz/pricelist/astana",
+          "label": "аз",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://www.kdlolymp.kz/en/pricelist/astana",
+          "label": "eng",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://www.kdlolymp.kz/services/klinicheskiy-analiz-krovi-s-leykocitarnoy-formuloy-oak",
+          "label": "клинический анализ крови с лейкоцитарной формулой и измерением скорости оседания эритроцитов общий анализ крови соэ гематология 1 день 3 980 в корзину",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://www.kdlolymp.kz/services/obshchiy-analiz-krovi-oak-bez-soe",
+          "label": "общий анализ крови общий анализ крови без соэ гематология 1 день 1 880 в корзину",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://www.kdlolymp.kz/services/izmerenie-skorosti-osedaniya-eritrocitov-soe-v-krovi-na-analizatore",
+          "label": "измерение скорости оседания эритроцитов соэ в крови на анализаторе гематология 1 день 3 080 в корзину",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://www.kdlolymp.kz/services/obshchiy-analiz-krovi-s-s-reaktivnym-belkom-oak-srb-bez-soe",
+          "label": "общий анализ крови с с реактивным белком общий анализ крови срб без соэ профили 1 2 дня 2 360 в корзину",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://www.kdlolymp.kz/services/opredelenie-ferritina-v-syvorotke-krovi-na-analizatore",
+          "label": "ферритин биохимия крови 1 день 3 100 в корзину",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://www.kdlolymp.kz/services/k-kaliy-opredelenie-kaliya-k-v-syvorotke-krovi-na-analizatore",
+          "label": "k калий определение калия k в сыворотке крови на анализаторе биохимия крови 1 день 1 780 в корзину",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://www.kdlolymp.kz/services/na-natriy-opredelenie-natriya-na-v-syvorotke-krovi-na-analizatore",
+          "label": "na натрий определение натрия na в сыворотке крови на анализаторе биохимия крови 1 день 1 780 в корзину",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://www.kdlolymp.kz/services/sl-hlor-opredelenie-hloridov-cl-v-syvorotke-krovi-na-analizatore",
+          "label": "сl хлор определение хлоридов cl в сыворотке крови на анализаторе биохимия крови 1 2 дня 1 780 в корзину",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "Dostarmed public price page",
+      "url": "https://dostarmed.kz/prajs",
+      "expected_city": "Алматы",
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://dostarmed.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "metadata_only",
+      "reason": "no_extractable_service_price_rows",
+      "price_markers_found": [],
+      "medical_markers_found": [
+        "анализ",
+        "диагностика",
+        "лаборатория",
+        "кт"
+      ],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [
+        "Алматы"
+      ],
+      "final_url": "https://dostarmed.kz/prajs",
+      "html_hash": "e0b3a95befb2d16a2626411fdc8d480c335ae383d2ab23ef5422e2e4cdb24bfa",
+      "duration_sec": 1.44,
+      "candidate_links": [
+        {
+          "url": "https://dostarmed.kz/uslugi/konsultatsii-spetsialistov",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://dostarmed.kz/uslugi/laboratoriya",
+          "label": "лаборатория",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://dostarmed.kz/uslugi/checkup4",
+          "label": "check up",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://dostarmed.kz/uslugi/statsionar",
+          "label": "стационар",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://dostarmed.kz/prajs-1",
+          "label": "прайс",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://dostarmed.kz/uslugi",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://dostarmed.kz/uslugi/diagnostika-2",
+          "label": "диагностика",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://dostarmed.kz/prajs",
+          "label": "прайс",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "Medical Park public price page",
+      "url": "https://medicalpark.kz/page/prices/",
+      "expected_city": "Алматы",
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://medicalpark.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "тг",
+        "стоимость"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "консультация",
+        "диагностика",
+        "лаборатория",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 5,
+      "sample_rows": [
+        {
+          "raw_service_name": "Местная пластика дефектов мягких тканей ч.л.о",
+          "price_kzt": 1760000,
+          "raw_line": "1 760 000"
+        },
+        {
+          "raw_service_name": "Пластика дефекта носа 2 степени сложности (с использованием лобного лоскута)",
+          "price_kzt": 1760000,
+          "raw_line": "1 760 000"
+        },
+        {
+          "raw_service_name": "Пластика дефекта носа 3 степени сложности с установлением трансплонтата (без учета стоимости материала)",
+          "price_kzt": 2640000,
+          "raw_line": "2 640 000"
+        },
+        {
+          "raw_service_name": "Пластика дефекта трахеи (канюленосительство)",
+          "price_kzt": 1430000,
+          "raw_line": "1 430 000"
+        },
+        {
+          "raw_service_name": "Пластика дефектов костей лицевого скелета (без учета стоимости материала)",
+          "price_kzt": 1430000,
+          "raw_line": "1 430 000"
+        }
+      ],
+      "detected_cities": [
+        "Алматы"
+      ],
+      "final_url": "https://medicalpark.kz/page/prices/",
+      "html_hash": "b67f55c26241d5179dace7474f1b3be4c704168585eec95f697df35083a7111c",
+      "duration_sec": 1.22,
+      "candidate_links": [
+        {
+          "url": "https://medicalpark.kz/uslugi/",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://medicalpark.kz/page/prices/",
+          "label": "цены",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://medicalpark.kz/page/prices/#ftablist-0",
+          "label": "лечение лечение",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://medicalpark.kz/page/prices/#ftablist-1",
+          "label": "для детей детям",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://medicalpark.kz/page/prices/#ftablist-4",
+          "label": "ультразвуковое исследование ультразвуковое исследование",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://medicalpark.kz/page/prices/#ftablist-2",
+          "label": "диагностика анализы анализы",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://medicalpark.kz/page/prices/#ftablist-3",
+          "label": "хирургия хирургия",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://medicalpark.kz/product/uslugi-lechebnogo-massazha.html",
+          "label": "лечебный массаж",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://medicalpark.kz/product/obsheklinicheskie-analizi.html",
+          "label": "общеклинические анализы",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://medicalpark.kz/product/analiz-krovi-obshii-i-biohimicheskii-i-drugie-laboratornie-issledovaniya.html",
+          "label": "биохимический анализ крови",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://medicalpark.kz/product/immunofermentnii-analiz.html",
+          "label": "иммуноферментный анализ ифа",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://medicalpark.kz/product/citologicheskii-analiz.html",
+          "label": "цитологический анализ",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Shymkent analyses",
+      "url": "https://invivo.kz/ru/shymkent/analyzes/",
+      "expected_city": "Шымкент",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1105)",
+          "price_kzt": 1105,
+          "raw_line": "Анализы (1105)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/shymkent/analyzes/",
+      "html_hash": "dba89a159133caa7b186942982802477bab3a16b2f4a093cc9aae99eb585b4f0",
+      "duration_sec": 2.34,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/shymkent/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/shymkent/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/shymkent/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Karaganda analyses",
+      "url": "https://invivo.kz/ru/karagandy/analyzes/",
+      "expected_city": "Караганда",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1094)",
+          "price_kzt": 1094,
+          "raw_line": "Анализы (1094)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/karagandy/analyzes/",
+      "html_hash": "e4aa7252f773934fd26e86505750dc1c6fa16a6868e436c391cd90f8fa7a8828",
+      "duration_sec": 1.75,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/karagandy/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/karagandy/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/karagandy/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Aktobe analyses",
+      "url": "https://invivo.kz/ru/aktobe/analyzes/",
+      "expected_city": "Актобе",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1102)",
+          "price_kzt": 1102,
+          "raw_line": "Анализы (1102)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/aktobe/analyzes/",
+      "html_hash": "c5a245870a39e589595af49925a11de84ea15534d415e8ad6c11a0bb48007f6f",
+      "duration_sec": 1.74,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/aktobe/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/aktobe/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/aktobe/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Ust-Kamenogorsk analyses",
+      "url": "https://invivo.kz/ru/ust-kamenogorsk/analyzes/",
+      "expected_city": "Усть-Каменогорск",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1154)",
+          "price_kzt": 1154,
+          "raw_line": "Анализы (1154)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/ust-kamenogorsk/analyzes/",
+      "html_hash": "d2e4e5dec87f24468a98fdcdd87b48a6d2978c597fcc5d76193b64d5c90df8a1",
+      "duration_sec": 1.71,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/ust-kamenogorsk/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/ust-kamenogorsk/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/ust-kamenogorsk/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Pavlodar analyses",
+      "url": "https://invivo.kz/ru/pavlodar/analyzes/",
+      "expected_city": "Павлодар",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1093)",
+          "price_kzt": 1093,
+          "raw_line": "Анализы (1093)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/pavlodar/analyzes/",
+      "html_hash": "40d6d647e5d401fe2aef12880a4b6675ea8ad07c8d34ac14d348ac2a4955062c",
+      "duration_sec": 1.78,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/pavlodar/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pavlodar/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pavlodar/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Kostanay analyses",
+      "url": "https://invivo.kz/ru/kostanay/analyzes/",
+      "expected_city": "Костанай",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1148)",
+          "price_kzt": 1148,
+          "raw_line": "Анализы (1148)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Костанай",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/kostanay/analyzes/",
+      "html_hash": "594f7c0059dca33a8f39574795bb5fa20ac24367c1924f152bfe99bf9d89d7b2",
+      "duration_sec": 1.74,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/kostanay/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/kostanay/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/kostanay/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Atyrau analyses",
+      "url": "https://invivo.kz/ru/atyrau/analyzes/",
+      "expected_city": "Атырау",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1115)",
+          "price_kzt": 1115,
+          "raw_line": "Анализы (1115)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Атырау",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/atyrau/analyzes/",
+      "html_hash": "506811922ca6797e101cf7043c28739e5dd82fc24776f10bcaf47bdcdbc26d35",
+      "duration_sec": 1.83,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/atyrau/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/atyrau/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/atyrau/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Taraz analyses",
+      "url": "https://invivo.kz/ru/taraz/analyzes/",
+      "expected_city": "Тараз",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1172)",
+          "price_kzt": 1172,
+          "raw_line": "Анализы (1172)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/taraz/analyzes/",
+      "html_hash": "f930c6de955f4860deff4abe4b64fcac44b98a02f169d33395760c7059238f6f",
+      "duration_sec": 1.85,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/taraz/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/taraz/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/taraz/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Astana analyses",
+      "url": "https://invivo.kz/ru/astana/analyzes/",
+      "expected_city": "Астана",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1118)",
+          "price_kzt": 1118,
+          "raw_line": "Анализы (1118)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/astana/analyzes/",
+      "html_hash": "877d2d06d826a934f4f10759dd35f97f6b8f051b3f7293e155c7c7ceff2ae791",
+      "duration_sec": 1.83,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/astana/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/astana/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/astana/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Almaty analyses",
+      "url": "https://invivo.kz/ru/almaty/analyzes/",
+      "expected_city": "Алматы",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1166)",
+          "price_kzt": 1166,
+          "raw_line": "Анализы (1166)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/almaty/analyzes/",
+      "html_hash": "27824343966dbcc4c15410eb7c21a7587961d90eb6be6c8dec2ec8de97afd1c9",
+      "duration_sec": 1.71,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/almaty/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/almaty/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/almaty/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Aktau analyses",
+      "url": "https://invivo.kz/ru/aktau/analyzes/",
+      "expected_city": "Актау",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1100)",
+          "price_kzt": 1100,
+          "raw_line": "Анализы (1100)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/aktau/analyzes/",
+      "html_hash": "4bfbea7245b3d480d083ed20284dc8aa36b818b92a7f5a5a0f7613ff48550ee7",
+      "duration_sec": 1.78,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/aktau/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/aktau/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/aktau/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Aksukent analyses",
+      "url": "https://invivo.kz/ru/aksukent/analyzes/",
+      "expected_city": "Аксукент",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1105)",
+          "price_kzt": 1105,
+          "raw_line": "Анализы (1105)"
+        }
+      ],
+      "detected_cities": [
+        "Аксукент",
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/aksukent/analyzes/",
+      "html_hash": "79e41845a8dec58ee212b4dc5e3dfb42782cb7bab42bde73dcbf7f2a7470d9ee",
+      "duration_sec": 1.74,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/aksukent/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/aksukent/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/aksukent/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Kyzylorda analyses",
+      "url": "https://invivo.kz/ru/kyzylorda/analyzes/",
+      "expected_city": "Кызылорда",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1116)",
+          "price_kzt": 1116,
+          "raw_line": "Анализы (1116)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Кызылорда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/kyzylorda/analyzes/",
+      "html_hash": "9798a383f67710d17aa8538521877a9ffeca7a5646b82c6b73ebc11a7fbd2fd2",
+      "duration_sec": 1.7,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/kyzylorda/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/kyzylorda/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/kyzylorda/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Kokshetau analyses",
+      "url": "https://invivo.kz/ru/kokshetau/analyzes/",
+      "expected_city": "Кокшетау",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1151)",
+          "price_kzt": 1151,
+          "raw_line": "Анализы (1151)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Кокшетау",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/kokshetau/analyzes/",
+      "html_hash": "f183c891fe114d2431c398480e112cd787c34e51582250859af588389011fb14",
+      "duration_sec": 1.66,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/kokshetau/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/kokshetau/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/kokshetau/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Semey analyses",
+      "url": "https://invivo.kz/ru/semey/analyzes/",
+      "expected_city": "Семей",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1186)",
+          "price_kzt": 1186,
+          "raw_line": "Анализы (1186)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/semey/analyzes/",
+      "html_hash": "fd89b4b9431bf9835c8932f282edb6bc28fd118967ef9f76362358e4a7e888b7",
+      "duration_sec": 1.76,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/semey/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/semey/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/semey/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Oral analyses",
+      "url": "https://invivo.kz/ru/oral/analyzes/",
+      "expected_city": "Уральск",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1098)",
+          "price_kzt": 1098,
+          "raw_line": "Анализы (1098)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Уральск",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/oral/analyzes/",
+      "html_hash": "92b65e6e85914fcb233e4b091d78fce3c9d362ec80c640be8748a51ae035744f",
+      "duration_sec": 1.74,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/oral/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/oral/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/oral/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Turkestan analyses",
+      "url": "https://invivo.kz/ru/turkestan/analyzes/",
+      "expected_city": "Туркестан",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1095)",
+          "price_kzt": 1095,
+          "raw_line": "Анализы (1095)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Туркестан",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/turkestan/analyzes/",
+      "html_hash": "ef33fb12c9c7a1d6816b02e5dd70985209da97a40c9b1068b4698c8b7a29b42c",
+      "duration_sec": 1.65,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/turkestan/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/turkestan/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/turkestan/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Temirtau analyses",
+      "url": "https://invivo.kz/ru/temirtau/analyzes/",
+      "expected_city": "Темиртау",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1094)",
+          "price_kzt": 1094,
+          "raw_line": "Анализы (1094)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Темиртау",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/temirtau/analyzes/",
+      "html_hash": "13df132bc2e8a3135ec50ca700062d9c04aecb13ac7ca343282de7cc82764fa7",
+      "duration_sec": 1.65,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/temirtau/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/temirtau/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/temirtau/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Taldykorgan analyses",
+      "url": "https://invivo.kz/ru/taldykorgan/analyzes/",
+      "expected_city": "Талдыкорган",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1099)",
+          "price_kzt": 1099,
+          "raw_line": "Анализы (1099)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Талдыкорган",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/taldykorgan/analyzes/",
+      "html_hash": "4fa8dc20d952fb467ef79565d49e4d18ee4a65fd04855df5e68473900dce98ed",
+      "duration_sec": 1.67,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/taldykorgan/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/taldykorgan/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/taldykorgan/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Ekibastuz analyses",
+      "url": "https://invivo.kz/ru/ekibastuz/analyzes/",
+      "expected_city": "Экибастуз",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1091)",
+          "price_kzt": 1091,
+          "raw_line": "Анализы (1091)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент",
+        "Экибастуз"
+      ],
+      "final_url": "https://invivo.kz/ru/ekibastuz/analyzes/",
+      "html_hash": "95af966a4d440dd0e155e68709b45f4be2e3ec6c8ff83d490368fc10ead0ac6b",
+      "duration_sec": 4.04,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/ekibastuz/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/ekibastuz/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/ekibastuz/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Rudnyy analyses",
+      "url": "https://invivo.kz/ru/rudnyy/analyzes/",
+      "expected_city": "Рудный",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1148)",
+          "price_kzt": 1148,
+          "raw_line": "Анализы (1148)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Рудный",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/rudnyy/analyzes/",
+      "html_hash": "95543b60890a116deba5a224170360c4d90862648d439fb7e9cce767b0992601",
+      "duration_sec": 2.08,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/rudnyy/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/rudnyy/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/rudnyy/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "INVIVO Kulsary analyses",
+      "url": "https://invivo.kz/ru/Kulsary/analyzes/",
+      "expected_city": "Кульсары",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://invivo.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Анализы (1115)",
+          "price_kzt": 1115,
+          "raw_line": "Анализы (1115)"
+        }
+      ],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Кульсары",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://invivo.kz/ru/Kulsary/analyzes/",
+      "html_hash": "d06c64bcd9825477d7464f00b83fa074859376be62793a7bf2c4ec07a381dec4",
+      "duration_sec": 1.71,
+      "candidate_links": [
+        {
+          "url": "https://invivo.kz/ru/Kulsary/analyzes/burger1",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/pages/podgotovka-k-sdache-analizov/",
+          "label": "подготовка к сдаче анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/Kulsary/analyzes/kakie-analizy-na-gormony-sdaiut-zhenshchiny/",
+          "label": "какие анализы на гормоны сдают женщины 14",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://invivo.kz/ru/Kulsary/analyzes/kakie-analizy-sdat-esli-ia-beremenna/",
+          "label": "какие анализы сдать если я беременна 28",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "Hippokrat Karaganda public PDF price list",
+      "url": "https://hippokrat.kz/sites/default/files/prays_too_mf_gippokrat_15.02.2025_1_1_1.pdf",
+      "expected_city": "Караганда",
+      "type": "clinic",
+      "source_type": "public_pdf",
+      "robots_url": "https://hippokrat.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "public_file_candidate",
+      "reason": "public_file_requires_import_validation",
+      "price_markers_found": [],
+      "medical_markers_found": [],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [
+        "Караганда"
+      ],
+      "final_url": "https://hippokrat.kz/sites/default/files/prays_too_mf_gippokrat_15.02.2025_1_1_1.pdf",
+      "html_hash": "86984a9bfc451cfa73ead464a81c900ff56a389fdb35483085ec3790c866b804",
+      "duration_sec": 1.06,
+      "candidate_links": []
+    },
+    {
+      "name": "Hippokrat Karaganda homepage",
+      "url": "https://hippokrat.kz/",
+      "expected_city": "Караганда",
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://hippokrat.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "metadata_only",
+      "reason": "no_extractable_service_price_rows",
+      "price_markers_found": [
+        "тг",
+        "стоимость"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "лаборатория",
+        "кт"
+      ],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [
+        "Караганда"
+      ],
+      "final_url": "https://hippokrat.kz/",
+      "html_hash": "5cc09a3547ea2f940feb780b2941e87d413a811ef2167028502a70aa99829b05",
+      "duration_sec": 1.7,
+      "candidate_links": [
+        {
+          "url": "https://hippokrat.kz/sites/default/files/prays_too_mf_gippokrat_15.02.2025_1_1_1.pdf",
+          "label": "скачать прайс лист",
+          "source_type": "public_pdf",
+          "reason": "public_file_extension"
+        },
+        {
+          "url": "https://hippokrat.kz/services",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://hippokrat.kz/news/%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F-%D0%BD%D0%B0-%D0%BF%D0%BE%D0%B1%D0%BE%D1%87%D0%BD%D1%8B%D0%B5-%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F-%D0%B8-%D0%B7%D0%B0%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%BD%D1%83%D1%8E-%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C-%D0%BB%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2",
+          "label": "как пожаловаться на побочные действия и завышенную стоимость лекарств",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "On Clinic Almaty price page",
+      "url": "https://onclinic.kz/price",
+      "expected_city": "Алматы",
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://onclinic.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "metadata_only",
+      "reason": "no_extractable_service_price_rows",
+      "price_markers_found": [
+        "тг",
+        "стоимость",
+        "цена"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "консультация",
+        "диагностика",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [
+        "Алматы",
+        "Астана",
+        "Усть-Каменогорск"
+      ],
+      "final_url": "https://onclinic.kz/price",
+      "html_hash": "9eaee641171314614e2db54db40f0f950004c89d615f1a8b7d636141c0fc33f5",
+      "duration_sec": 1.44,
+      "candidate_links": [
+        {
+          "url": "https://onclinic.kz/kz/price",
+          "label": "аза",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price",
+          "label": "русский",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p0",
+          "label": "хирургия",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p1",
+          "label": "гинекология",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p2",
+          "label": "дерматолог",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p3",
+          "label": "урология",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p4",
+          "label": "проктология",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p5",
+          "label": "гастроэнтерология",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p6",
+          "label": "кардиология",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p7",
+          "label": "маммология",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p8",
+          "label": "неврология",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p9",
+          "label": "офтальмология",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p10",
+          "label": "психология",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p11",
+          "label": "психотерапия",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p12",
+          "label": "сосудистая хирургия",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p13",
+          "label": "трихология",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p14",
+          "label": "флебология",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p15",
+          "label": "эндокринология",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p16",
+          "label": "программа healthy foot",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p17",
+          "label": "женская интимная пластика",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p18",
+          "label": "косметология",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p19",
+          "label": "генетический паспорт",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p20",
+          "label": "ультразвуковое исследование",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p21",
+          "label": "аллергология",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price#p22",
+          "label": "терапия",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "On Clinic homepage",
+      "url": "https://onclinic.kz/",
+      "expected_city": "Алматы",
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://onclinic.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "тг",
+        "тенге"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "кт"
+      ],
+      "extractable_price_rows": 4,
+      "sample_rows": [
+        {
+          "raw_service_name": "Диагностика у офтальмолога",
+          "price_kzt": 11000,
+          "raw_line": "вместо 11000 тенге!"
+        },
+        {
+          "raw_service_name": "Диагностика у уролога",
+          "price_kzt": 9200,
+          "raw_line": "за 9200 тенге"
+        },
+        {
+          "raw_service_name": "Диагностика у проктолога",
+          "price_kzt": 10500,
+          "raw_line": "за 10 500 вместо"
+        },
+        {
+          "raw_service_name": "Диагностика у проктолога",
+          "price_kzt": 12500,
+          "raw_line": "12 500 тенге!"
+        }
+      ],
+      "detected_cities": [
+        "Алматы",
+        "Астана",
+        "Семей",
+        "Усть-Каменогорск"
+      ],
+      "final_url": "https://onclinic.kz/",
+      "html_hash": "58788bac0ebc13c91b74197b91bb3aeeeac676d50235432f1a91706679d94416",
+      "duration_sec": 1.9,
+      "candidate_links": [
+        {
+          "url": "https://onclinic.kz/",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://onclinic.kz/price",
+          "label": "цены",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "Mediker Kazakhstan homepage",
+      "url": "https://www.mediker.kz/",
+      "expected_city": null,
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://www.mediker.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "metadata_only",
+      "reason": "no_extractable_service_price_rows",
+      "price_markers_found": [],
+      "medical_markers_found": [
+        "анализ",
+        "кт"
+      ],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [
+        "Актау",
+        "Актобе",
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Павлодар",
+        "Семей",
+        "Тараз",
+        "Усть-Каменогорск",
+        "Шымкент"
+      ],
+      "final_url": "https://www.mediker.kz/",
+      "html_hash": "1424b5d3896b30881af0ca8cefd8764c00df105adfde6cc39791c2b0ece7556a",
+      "duration_sec": 1.95,
+      "candidate_links": []
+    },
+    {
+      "name": "Medline Kazakhstan homepage",
+      "url": "https://medline.kz/",
+      "expected_city": "Алматы",
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://medline.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "тг"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "диагностика",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Контакты",
+          "price_kzt": 10000,
+          "raw_line": "Казахстан, 010000"
+        }
+      ],
+      "detected_cities": [
+        "Алматы",
+        "Астана"
+      ],
+      "final_url": "https://medline.kz/",
+      "html_hash": "9b54894ed71af8892d68067fb78edb27661109eb4fec1ebcd88ec0c7c68e1d5b",
+      "duration_sec": 2.39,
+      "candidate_links": [
+        {
+          "url": "https://medline.kz/",
+          "label": "услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "Interteach homepage",
+      "url": "https://interteach.kz/",
+      "expected_city": "Алматы",
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://interteach.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "metadata_only",
+      "reason": "no_extractable_service_price_rows",
+      "price_markers_found": [
+        "тенге"
+      ],
+      "medical_markers_found": [
+        "кт"
+      ],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [
+        "Алматы",
+        "Астана"
+      ],
+      "final_url": "https://interteach.kz/ru",
+      "html_hash": "25c44c0ccc6b479ce48bd5c6767ca83ca6bd2413d72836c94aa3b0f078090c31",
+      "duration_sec": 1.22,
+      "candidate_links": []
+    },
+    {
+      "name": "Emirmed homepage",
+      "url": "https://emirmed.kz/ru/",
+      "expected_city": "Алматы",
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://emirmed.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": true,
+      "status": "metadata_only",
+      "reason": "no_extractable_service_price_rows",
+      "price_markers_found": [
+        "тг"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "диагностика",
+        "лаборатория",
+        "кт"
+      ],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент"
+      ],
+      "final_url": "https://emirmed.kz/ru/",
+      "html_hash": "76e073908ce61035bbc9aa38b719eceb62b255eab393766f7ced9839f780d866",
+      "duration_sec": 1.68,
+      "candidate_links": [
+        {
+          "url": "https://emirmed.kz/ru/napravleniya/laboratornye_analizy/",
+          "label": "лабораторные анализы",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        }
+      ]
+    },
+    {
+      "name": "Olymp Kazakhstan homepage",
+      "url": "https://olymp.kz",
+      "expected_city": null,
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://olymp.kz/robots.txt",
+      "robots_allowed": false,
+      "robots_status": "robots_unknown",
+      "available": false,
+      "status": "error",
+      "reason": "<urlopen error timed out>",
+      "price_markers_found": [],
+      "medical_markers_found": [],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [],
+      "final_url": null,
+      "html_hash": null,
+      "duration_sec": 26.81
+    },
+    {
+      "name": "Helix Kazakhstan homepage",
+      "url": "https://helix.kz",
+      "expected_city": null,
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://helix.kz/robots.txt",
+      "robots_allowed": false,
+      "robots_status": "robots_unknown",
+      "available": true,
+      "status": "price_candidate",
+      "reason": null,
+      "price_markers_found": [
+        "₸"
+      ],
+      "medical_markers_found": [
+        "анализ",
+        "прием",
+        "консультация",
+        "кров",
+        "кт"
+      ],
+      "extractable_price_rows": 1,
+      "sample_rows": [
+        {
+          "raw_service_name": "Более 3600 анализов",
+          "price_kzt": 3600,
+          "raw_line": "Более 3600 анализов"
+        }
+      ],
+      "detected_cities": [
+        "Алматы"
+      ],
+      "final_url": "https://helix.ru/almaty",
+      "html_hash": "65e952edbd6625ded76944f10086a904c8f0e7f5e28bd99606d7456d2b850179",
+      "duration_sec": 3.16,
+      "candidate_links": [
+        {
+          "url": "https://helix.ru/catalog/1-populyarnye-analizy",
+          "label": "популярные анализы",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/190-vse-analizy",
+          "label": "все анализы",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/34-kompleksy-analizov",
+          "label": "комплексы анализов",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/30-analizy-na-allergiyu",
+          "label": "анализы на аллергию",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/189-analizy-na-vitaminy",
+          "label": "анализы на витамины",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/29-analizy-na-gormony",
+          "label": "анализы на гормоны",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/26-analizy-na-zppp-zabolevaniya-peredayuschiesya-polovym-putem",
+          "label": "анализы на зппп заболевания передающиеся половым путем",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/23-analizy-na-infekcii",
+          "label": "анализы на инфекции",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/11-analizy-na-autoimmunnye-zabolevaniya",
+          "label": "анализы на аутоиммунные заболевания",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/191-vrachebnye-uslugi",
+          "label": "врачебные услуги",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/24-analizy-dlya-beremennyh",
+          "label": "анализы для беременных",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/12-immunogrammy-analizy-na-markery-immuniteta",
+          "label": "иммунограммы анализы на маркеры иммунитета",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/22-analizy-na-genetiku",
+          "label": "анализы на генетику",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/204-analizy-dlya-onkodiagnostiki",
+          "label": "анализы для онкодиагностики",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/7-analizy-na-citologiyu-i-gistologiyu",
+          "label": "анализы на цитологию и гистологию",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/3-obschij-analiz-krovi",
+          "label": "общий анализ крови",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/28-biohimicheskie-analizy",
+          "label": "биохимические анализы",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/4-analizy-kala",
+          "label": "анализы кала",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/5-analizy-mochi",
+          "label": "анализы мочи",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/6-analizy-spermy",
+          "label": "анализы спермы",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/31-analizy-na-svertyvaemost-krovi",
+          "label": "анализы на свертываемость крови",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/25-analizy-na-gruppu-krovi-i-rezus-faktor",
+          "label": "анализы на группу крови и резус фактор",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/16-analizy-na-tyazhelye-metally-i-mikroelementy",
+          "label": "анализы на тяжелые металлы и микроэлементы",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/185-analizy-na-covid-19",
+          "label": "анализы на covid 19",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/catalog/vse-analizy",
+          "label": "в каталог",
+          "source_type": "html_page",
+          "reason": "price_keyword_link"
+        },
+        {
+          "url": "https://helix.ru/Upload/Documents/data-processing-policy.pdf",
+          "label": "обработка персональных данных",
+          "source_type": "public_pdf",
+          "reason": "public_file_extension"
+        },
+        {
+          "url": "https://helix.ru/Upload/Documents/oos-politics.pdf",
+          "label": "политика в области качества оос пзбт",
+          "source_type": "public_pdf",
+          "reason": "public_file_extension"
+        }
+      ]
+    },
+    {
+      "name": "Medel clinic homepage",
+      "url": "https://medel.kz",
+      "expected_city": "Алматы",
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://medel.kz/robots.txt",
+      "robots_allowed": false,
+      "robots_status": "robots_unknown",
+      "available": true,
+      "status": "warning",
+      "reason": "no_medical_price_markers",
+      "price_markers_found": [],
+      "medical_markers_found": [],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [
+        "Алматы"
+      ],
+      "final_url": "https://medel.kz",
+      "html_hash": "be95864adb382f1fda55eae8379eeb93ed68526d28805ad41fd9ad8525b06fc5",
+      "duration_sec": 1.11,
+      "candidate_links": []
+    },
+    {
+      "name": "Aksai Clinic homepage",
+      "url": "https://aksai-clinic.kz",
+      "expected_city": "Алматы",
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://aksai-clinic.kz/robots.txt",
+      "robots_allowed": false,
+      "robots_status": "robots_unknown",
+      "available": false,
+      "status": "error",
+      "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "price_markers_found": [],
+      "medical_markers_found": [],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [],
+      "final_url": null,
+      "html_hash": null,
+      "duration_sec": 0.81
+    },
+    {
+      "name": "MCK Kazakhstan homepage",
+      "url": "https://mck.kz",
+      "expected_city": "Алматы",
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://mck.kz/robots.txt",
+      "robots_allowed": false,
+      "robots_status": "robots_unknown",
+      "available": true,
+      "status": "warning",
+      "reason": "no_medical_price_markers",
+      "price_markers_found": [],
+      "medical_markers_found": [],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [
+        "Алматы"
+      ],
+      "final_url": "https://mck.kz",
+      "html_hash": "14a15263242e114cc8545a5040b8aac2bdc90695032fe62785f544de4e36f850",
+      "duration_sec": 1.69,
+      "candidate_links": []
+    },
+    {
+      "name": "Sunkar clinic homepage",
+      "url": "https://sunkarclinic.kz",
+      "expected_city": "Алматы",
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://sunkarclinic.kz/robots.txt",
+      "robots_allowed": false,
+      "robots_status": "robots_unknown",
+      "available": false,
+      "status": "error",
+      "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "price_markers_found": [],
+      "medical_markers_found": [],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [],
+      "final_url": null,
+      "html_hash": null,
+      "duration_sec": 0.81
+    },
+    {
+      "name": "KDL Olymp Shymkent price list",
+      "url": "https://www.kdlolymp.kz/pricelist/shymkent",
+      "expected_city": "Шымкент",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://www.kdlolymp.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": false,
+      "status": "error",
+      "reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound",
+      "price_markers_found": [],
+      "medical_markers_found": [],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [],
+      "final_url": null,
+      "html_hash": null,
+      "duration_sec": 6.76
+    },
+    {
+      "name": "KDL Olymp Karaganda price list",
+      "url": "https://www.kdlolymp.kz/pricelist/karaganda",
+      "expected_city": "Караганда",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://www.kdlolymp.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": false,
+      "status": "error",
+      "reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound",
+      "price_markers_found": [],
+      "medical_markers_found": [],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [],
+      "final_url": null,
+      "html_hash": null,
+      "duration_sec": 5.44
+    },
+    {
+      "name": "KDL Olymp Aktobe price list",
+      "url": "https://www.kdlolymp.kz/pricelist/aktobe",
+      "expected_city": "Актобе",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://www.kdlolymp.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": false,
+      "status": "error",
+      "reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound",
+      "price_markers_found": [],
+      "medical_markers_found": [],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [],
+      "final_url": null,
+      "html_hash": null,
+      "duration_sec": 7.86
+    },
+    {
+      "name": "KDL Olymp Ust-Kamenogorsk price list",
+      "url": "https://www.kdlolymp.kz/pricelist/ust-kamenogorsk",
+      "expected_city": "Усть-Каменогорск",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://www.kdlolymp.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": false,
+      "status": "error",
+      "reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound",
+      "price_markers_found": [],
+      "medical_markers_found": [],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [],
+      "final_url": null,
+      "html_hash": null,
+      "duration_sec": 6.35
+    },
+    {
+      "name": "KDL Olymp Pavlodar price list",
+      "url": "https://www.kdlolymp.kz/pricelist/pavlodar",
+      "expected_city": "Павлодар",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://www.kdlolymp.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": false,
+      "status": "error",
+      "reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound",
+      "price_markers_found": [],
+      "medical_markers_found": [],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [],
+      "final_url": null,
+      "html_hash": null,
+      "duration_sec": 6.18
+    },
+    {
+      "name": "KDL Olymp Taraz price list",
+      "url": "https://www.kdlolymp.kz/pricelist/taraz",
+      "expected_city": "Тараз",
+      "type": "lab",
+      "source_type": "lab",
+      "robots_url": "https://www.kdlolymp.kz/robots.txt",
+      "robots_allowed": true,
+      "robots_status": "robots_allowed",
+      "available": false,
+      "status": "error",
+      "reason": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound",
+      "price_markers_found": [],
+      "medical_markers_found": [],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [],
+      "final_url": null,
+      "html_hash": null,
+      "duration_sec": 6.54
+    },
+    {
+      "name": "Smart Clinic homepage",
+      "url": "https://smartclinic.kz/",
+      "expected_city": "Астана",
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://smartclinic.kz/robots.txt",
+      "robots_allowed": false,
+      "robots_status": "robots_blocked",
+      "available": false,
+      "status": "skipped",
+      "reason": "blocked_by_robots",
+      "price_markers_found": [],
+      "medical_markers_found": [],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [],
+      "final_url": null,
+      "html_hash": null,
+      "duration_sec": 0.15
+    },
+    {
+      "name": "Daru Clinic candidate",
+      "url": "https://daruclinic.kz/",
+      "expected_city": null,
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://daruclinic.kz/robots.txt",
+      "robots_allowed": false,
+      "robots_status": "robots_unknown",
+      "available": false,
+      "status": "error",
+      "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "price_markers_found": [],
+      "medical_markers_found": [],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [],
+      "final_url": null,
+      "html_hash": null,
+      "duration_sec": 0.81
+    },
+    {
+      "name": "Medline Astana candidate",
+      "url": "https://medline-astana.kz/",
+      "expected_city": "Астана",
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://medline-astana.kz/robots.txt",
+      "robots_allowed": false,
+      "robots_status": "robots_unknown",
+      "available": false,
+      "status": "error",
+      "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "price_markers_found": [],
+      "medical_markers_found": [],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [],
+      "final_url": null,
+      "html_hash": null,
+      "duration_sec": 0.81
+    },
+    {
+      "name": "Karaganda medical candidate",
+      "url": "https://karagandamed.kz/",
+      "expected_city": "Караганда",
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://karagandamed.kz/robots.txt",
+      "robots_allowed": false,
+      "robots_status": "robots_unknown",
+      "available": false,
+      "status": "error",
+      "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "price_markers_found": [],
+      "medical_markers_found": [],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [],
+      "final_url": null,
+      "html_hash": null,
+      "duration_sec": 0.81
+    },
+    {
+      "name": "Kostanay medical candidate",
+      "url": "https://qostanay-med.kz/",
+      "expected_city": "Костанай",
+      "type": "clinic",
+      "source_type": "clinic",
+      "robots_url": "https://qostanay-med.kz/robots.txt",
+      "robots_allowed": false,
+      "robots_status": "robots_unknown",
+      "available": false,
+      "status": "error",
+      "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "price_markers_found": [],
+      "medical_markers_found": [],
+      "extractable_price_rows": 0,
+      "sample_rows": [],
+      "detected_cities": [],
+      "final_url": null,
+      "html_hash": null,
+      "duration_sec": 0.81
+    }
+  ]
+}

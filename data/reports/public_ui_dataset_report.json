@@ -1,0 +1,580 @@
+{
+  "generated_at": "2026-06-27T14:30:11.728594+00:00",
+  "input_web_records": 6178,
+  "matched_or_public_clean_records": 5589,
+  "deduped_offers": 5302,
+  "deduplication_drops": 287,
+  "unmatched_excluded_count": 589,
+  "matched_rate": 0.9047,
+  "records_by_city": {
+    "Астана": 638,
+    "Шымкент": 424,
+    "Караганда": 954,
+    "Актобе": 422,
+    "Павлодар": 415,
+    "Костанай": 416,
+    "Атырау": 416,
+    "Тараз": 417,
+    "Алматы": 1200
+  },
+  "records_by_category": {
+    "Check-up": 325,
+    "Анализы": 3631,
+    "Диагностика": 768,
+    "Консультации": 390,
+    "Стоматология": 80,
+    "УЗИ": 108
+  },
+  "records_by_clinic": {
+    "INVIVO Kazakhstan": 3789,
+    "Гиппократ": 535,
+    "Medical Park": 398,
+    "Dostarmed": 325,
+    "KDL/Olymp": 212,
+    "On Clinic Almaty public prices": 43
+  },
+  "top_remaining_unmatched": [
+    {
+      "raw_service_name": "Глюкозотолерантный тест. Стандартный",
+      "count": 10,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Караганда",
+        "Актобе",
+        "Павлодар",
+        "Костанай",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Прямая проба Кумбса (прямой антиглобулиновый тест)",
+      "count": 9,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Караганда",
+        "Актобе",
+        "Павлодар",
+        "Костанай",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Кровь. Микрореакция",
+      "count": 9,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Караганда",
+        "Актобе",
+        "Павлодар",
+        "Костанай",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Иммунофенотипирование (панель для миеломной болезни)",
+      "count": 9,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Караганда",
+        "Актобе",
+        "Павлодар",
+        "Костанай",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Циркулирующие иммунные комплексы (ЦИК)",
+      "count": 9,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Караганда",
+        "Актобе",
+        "Павлодар",
+        "Костанай",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "ВПГ. Вирус герпеса 1/2. Иммунофлюоросценция",
+      "count": 9,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Караганда",
+        "Актобе",
+        "Павлодар",
+        "Костанай",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Маркеры аутоиммунной патологии щитовидной железы",
+      "count": 9,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Караганда",
+        "Актобе",
+        "Павлодар",
+        "Костанай",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Тест на измену (Сравнение генетических профилей)(инф, 2 стандартных образца+дополнительный нестандартный образец)",
+      "count": 9,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Караганда",
+        "Актобе",
+        "Павлодар",
+        "Костанай",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Обследование на аутоиммунные заболевания соединительной ткани",
+      "count": 9,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Караганда",
+        "Актобе",
+        "Павлодар",
+        "Костанай",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Обследование на аутоиммунное поражение печени",
+      "count": 9,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Караганда",
+        "Актобе",
+        "Павлодар",
+        "Костанай",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Близнецовый тест. Тест на зиготность ( однояйцевые/разнояйцевые близнецы) (стандарт, инф)",
+      "count": 9,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Караганда",
+        "Актобе",
+        "Павлодар",
+        "Костанай",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Поддержка иммунитета",
+      "count": 9,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Караганда",
+        "Актобе",
+        "Павлодар",
+        "Костанай",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Диагностика анемии. Стандарт",
+      "count": 9,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Караганда",
+        "Актобе",
+        "Павлодар",
+        "Костанай",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Обследование на аутоиммунный миозит и склеродермию (АНФ, Jo-1, PL-7, PL-12, SRP, Mi-2, Ku, PmScl, Scl-70)",
+      "count": 9,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Караганда",
+        "Актобе",
+        "Павлодар",
+        "Костанай",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Женские гормоны. Стандарт.",
+      "count": 9,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Караганда",
+        "Актобе",
+        "Павлодар",
+        "Костанай",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Первичный иммунодефицит",
+      "count": 9,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Караганда",
+        "Актобе",
+        "Павлодар",
+        "Костанай",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "МАР-тест. Определение IgA и IgG в сперме",
+      "count": 8,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Караганда",
+        "Актобе",
+        "Павлодар",
+        "Костанай",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "МАР-тест ( IgA) в сперме",
+      "count": 6,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Актобе",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "МАР-тест (IgG) в сперме",
+      "count": 6,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Актобе",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Спермограмма с описанием морфологии сперматозоидов + МАР-тест (IgA+IgG) в сперме",
+      "count": 6,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Астана",
+        "Шымкент",
+        "Актобе",
+        "Атырау",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Массаж грудного отдела позвоночника 20 2, 2",
+      "count": 4,
+      "clinics": [
+        "Гиппократ"
+      ],
+      "cities": [
+        "Караганда"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "запись по телефону +7( ) -04-94 или +7( ) 64 26 -методист",
+      "count": 4,
+      "clinics": [
+        "Гиппократ"
+      ],
+      "cities": [
+        "Караганда"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Логопедические занятия (абонемент от 8 посещений) (скидка 10%) 45-60 мин. / /",
+      "count": 4,
+      "clinics": [
+        "Гиппократ"
+      ],
+      "cities": [
+        "Караганда"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Логопедический массаж (абонемент от 8 посещений) (скидка 10%) 20 мин. / /",
+      "count": 4,
+      "clinics": [
+        "Гиппократ"
+      ],
+      "cities": [
+        "Караганда"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Иммунограмма (клеточное звено: CD3, СD4, СD19,CD8, CD16, ИРИ)",
+      "count": 2,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Иммунограмма (клеточное и гуморальное звено)",
+      "count": 2,
+      "clinics": [
+        "INVIVO Kazakhstan"
+      ],
+      "cities": [
+        "Алматы",
+        "Тараз"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Магнитотерапия (алмаг 02) 0 1",
+      "count": 2,
+      "clinics": [
+        "Гиппократ"
+      ],
+      "cities": [
+        "Караганда"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Биоптрон стационарный (средний) 1",
+      "count": 2,
+      "clinics": [
+        "Гиппократ"
+      ],
+      "cities": [
+        "Караганда"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Фонофорез (ультразвук с мазью) 1",
+      "count": 2,
+      "clinics": [
+        "Гиппократ"
+      ],
+      "cities": [
+        "Караганда"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    },
+    {
+      "raw_service_name": "Вибромассаж аппаратный для стоп 1",
+      "count": 2,
+      "clinics": [
+        "Гиппократ"
+      ],
+      "cities": [
+        "Караганда"
+      ],
+      "suggested_normalized_service": null,
+      "reason": "not_service_like",
+      "recommended_action": "parser cleanup"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+
+# Next.js / build output
+.next/
+out/
+dist/
+.turbo/
+.vercel/
+coverage/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# OS / editor / logs / temp
+.DS_Store
+*.log
+*.tmp
+tmp/
+temp/
+.cache/
+.agents/
+.codex/
+PROJECT_HANDOFF.md
+skills-lock.json
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# Raw imports and local archive/cache artifacts
+data/raw/
+data/source_files.json
+
+# Large internal/archive-derived generated files.
+# Public demo data remains committed via public_ui_dataset.json,
+# web_price_records.json, services.json and service_synonyms.json.
+data/generated/raw_price_records.json
+data/generated/normalized_price_records.json
+data/generated/app_price_records.json
+data/generated/app_unmatched_services.json
+data/generated/unmatched_services.json
+data/generated/price_anomalies.json
+data/generated/analytics.json
+data/generated/parser_logs.json
+data/generated/web_parser_logs.json
+
+# Internal archive reports with local source-file paths
+data/reports/import_report.json
+data/reports/pdf_import_report.json
+data/reports/excel_import_report.json
+data/reports/docx_import_report.json
+data/reports/dictionary_report.json
+data/reports/analytics_report.json

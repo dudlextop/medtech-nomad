@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-06-27T14:30:01.083554+00:00",
+  "raw_records": 35429,
+  "normalized_records": 35429,
+  "matched_records": 11891,
+  "unmatched_records": 23538,
+  "matched_pct": 0.3356,
+  "unmatched_pct": 0.6644,
+  "method_counts": {
+    "fuzzy": 28111,
+    "exact_name": 409,
+    "exact_code": 6909
+  },
+  "threshold": 0.64
+}

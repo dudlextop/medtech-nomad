@@ -1,0 +1,132 @@
+[
+  {
+    "clinic_id": "clinic_4",
+    "clinic_name": "Клиника 4",
+    "city": "Шымкент",
+    "records": 1037,
+    "matched_records": 942,
+    "matched_pct": 90.8,
+    "average_parser_confidence": 0.799,
+    "years": [
+      2026
+    ],
+    "price_types": [
+      "non_resident_cis",
+      "non_resident_far",
+      "resident"
+    ],
+    "quality_score": 92,
+    "has_parser_error": false
+  },
+  {
+    "clinic_id": "clinic_3",
+    "clinic_name": "Клиника 3",
+    "city": "Алматы",
+    "records": 1501,
+    "matched_records": 1339,
+    "matched_pct": 89.2,
+    "average_parser_confidence": 0.8,
+    "years": [
+      2026
+    ],
+    "price_types": [
+      "base",
+      "partner"
+    ],
+    "quality_score": 89,
+    "has_parser_error": false
+  },
+  {
+    "clinic_id": "clinic_2",
+    "clinic_name": "Клиника 2",
+    "city": "Астана",
+    "records": 4515,
+    "matched_records": 2482,
+    "matched_pct": 55.0,
+    "average_parser_confidence": 0.742,
+    "years": [
+      2025,
+      2026
+    ],
+    "price_types": [
+      "insurance",
+      "non_resident",
+      "resident"
+    ],
+    "quality_score": 81,
+    "has_parser_error": false
+  },
+  {
+    "clinic_id": "clinic_1",
+    "clinic_name": "Клиника 1",
+    "city": "Алматы",
+    "records": 6157,
+    "matched_records": 2382,
+    "matched_pct": 38.7,
+    "average_parser_confidence": 0.889,
+    "years": [
+      2024,
+      2026
+    ],
+    "price_types": [
+      "base"
+    ],
+    "quality_score": 74,
+    "has_parser_error": false
+  },
+  {
+    "clinic_id": "clinic_8",
+    "clinic_name": "Клиника 8",
+    "city": "Астана",
+    "records": 1853,
+    "matched_records": 600,
+    "matched_pct": 32.4,
+    "average_parser_confidence": 0.96,
+    "years": [
+      2026
+    ],
+    "price_types": [
+      "insurance",
+      "resident"
+    ],
+    "quality_score": 73,
+    "has_parser_error": false
+  },
+  {
+    "clinic_id": "clinic_6",
+    "clinic_name": "Клиника 6",
+    "city": "Астана",
+    "records": 20094,
+    "matched_records": 4032,
+    "matched_pct": 20.1,
+    "average_parser_confidence": 0.96,
+    "years": [
+      2026
+    ],
+    "price_types": [
+      "base_without_vat",
+      "non_resident_cis",
+      "non_resident_far",
+      "resident"
+    ],
+    "quality_score": 72,
+    "has_parser_error": false
+  },
+  {
+    "clinic_id": "clinic_5",
+    "clinic_name": "Клиника 5",
+    "city": "Актобе",
+    "records": 272,
+    "matched_records": 114,
+    "matched_pct": 41.9,
+    "average_parser_confidence": 0.846,
+    "years": [
+      2025
+    ],
+    "price_types": [
+      "base"
+    ],
+    "quality_score": 72,
+    "has_parser_error": false
+  }
+]
